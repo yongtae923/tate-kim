@@ -6,6 +6,10 @@ title = 'Apple Newsroom'
 copyright = 'Floyd Li'
 theme = 'hugo-theme-itheme'
 paginate = 5
+themesDir = "./themes"
+[module]
+  [module.imports]
+    path = 'hugo-theme-itheme'
 [params]
   defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
   email = 'floyd.li@outlook.com'
