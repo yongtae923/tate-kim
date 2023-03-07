@@ -1,7 +1,6 @@
 ---
 title: 'Apple 推出为头脑风暴和创意协作设计的全新强大 app 无边记'
 date: '2023-02-27T13:06:38+08:00'
-draft: true
 description: 'iPhone、iPad 及 Mac 版无边记让视觉化协作更轻松。'
 author: 'Apple Newsroom'
 cover: 'https://www.apple.com.cn/newsroom/images/product/apps/standard/Apple-Freeform-hero_big.jpg.large_2x.jpg'

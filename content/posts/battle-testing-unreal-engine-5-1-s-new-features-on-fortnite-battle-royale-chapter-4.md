@@ -1,7 +1,6 @@
 ---
 title: 'UE5.1新功能在《堡垒之夜：大逃杀》第四章中的实战测试'
 date: '2022-10-27T13:06:38+08:00'
-draft: true
 description: '在这篇博客文章中，我们将着眼于一些虚幻引擎5功能，它们得益于《堡垒之夜：大逃杀》第四章的检验，已经变得更加完善了；我们还据此对UE 5.1做出了改进，这将帮助你创建更加精致和快速的开放世界游戏。'
 author: '虚幻引擎官网'
 cover: 'https://cdn2.unrealengine.com/unreal-engine-5-1-features-for-fortnite-chapter-4-header-1920x1080-2e96869442d6.jpg?resize=1&w=1920'
