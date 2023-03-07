@@ -1,4 +1,17 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
-languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+baseURL = '/'
+languageCode = 'zh_Hans'
+defaultContentLanguage = "zh-hans"
+hasCJKLanguage = true
+title = 'Apple Newsroom'
+copyright = 'Floyd Li'
+theme = 'hugo-theme-itheme'
+paginate = 5
+[params]
+  defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+  email = 'floyd.li@outlook.com'
+  [[params.socialMedia]]
+    name = 'Github'
+    url = 'https://github.com/floyd-li'
+  [[params.blogroll]]
+    name = '驭风笔记'
+    url = 'https://yufengbiji.com/'
