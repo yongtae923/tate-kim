@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 hasCJKLanguage = true
+enableEmoji = true
 title = 'Apple Newsroom'
 copyright = 'Floyd Li'
 theme = 'hugo-theme-itheme'
