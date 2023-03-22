@@ -1,0 +1,20 @@
+name: Update Theme
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  update_theme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Update submodule
+      uses: fatjyc/update-submodule-action@v5.0
+      with:
+        user: ${{ user }}
+        token: ${{ secrets.GH_TOKEN }}
+        repo_owner: ${{ user }}
+        repo: ${{ repo }}
+        committor_username: ${{ user }}
+        committor_email: ${{ user.email }}
+        path: theme/hugo-theme-itheme
+        sync_ref: main
