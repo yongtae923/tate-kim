@@ -17,4 +17,4 @@ jobs:
         committor_username: floyd-li
         committor_email: floyd.li@outlook.com
         path: theme/hugo-theme-itheme
-        sync_ref: main
+        sync_ref: master
