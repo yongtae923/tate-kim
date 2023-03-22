@@ -10,11 +10,11 @@ jobs:
     - name: Update submodule
       uses: fatjyc/update-submodule-action@v5.0
       with:
-        user: ${{ user }}
+        user: floyd-li
         token: ${{ secrets.GH_TOKEN }}
-        repo_owner: ${{ user }}
-        repo: ${{ repo }}
-        committor_username: ${{ user }}
-        committor_email: ${{ user.email }}
+        repo_owner: floyd-li
+        repo: hugo-theme-itheme
+        committor_username: floyd-li
+        committor_email: floyd.li@outlook.com
         path: theme/hugo-theme-itheme
         sync_ref: main
