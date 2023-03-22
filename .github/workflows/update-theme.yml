@@ -23,4 +23,11 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git add --all
-        git commit -m "Update submodules" && git push || echo "No changes to commit"
+        git commit -m "Update submodules" || echo "No changes to commit"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+      if: ${{ steps.status.outputs.status && github.event_name == 'push' }}
