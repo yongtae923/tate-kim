@@ -16,5 +16,5 @@ jobs:
         repo: hugo-theme-itheme
         committor_username: floyd-li
         committor_email: floyd.li@outlook.com
-        path: theme/hugo-theme-itheme
+        path: themes/hugo-theme-itheme
         sync_ref: master
