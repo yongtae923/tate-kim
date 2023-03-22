@@ -7,14 +7,20 @@ jobs:
   update_theme:
     runs-on: ubuntu-latest
     steps:
-    - name: Update submodule
-      uses: fatjyc/update-submodule-action@v5.0
+    - name: Checkout
+      uses: actions/checkout@v2
       with:
-        user: floyd-li
         token: ${{ secrets.GH_TOKEN }}
-        repo_owner: floyd-li
-        repo: hugo-theme-itheme
-        committor_username: floyd-li
-        committor_email: floyd.li@outlook.com
-        path: themes/hugo-theme-itheme
-        sync_ref: master
+        submodules: true
+
+    - name: Git Sumbodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+
+    - name: Commit update
+      run: |
+        git config --global user.name 'Floyd Li'
+        git config --global user.email 'floyd.li@outlook.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+        git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
