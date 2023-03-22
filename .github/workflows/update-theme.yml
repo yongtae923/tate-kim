@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.CI_TOKEN }}
         submodules: true
 
     - name: Git Sumbodule Update
@@ -20,7 +20,7 @@ jobs:
 
     - name: Commit update
       run: |
-        git config --global user.name 'Floyd Li'
-        git config --global user.email 'floyd.li@outlook.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
