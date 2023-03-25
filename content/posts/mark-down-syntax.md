@@ -3,10 +3,10 @@ title: "Markdown Syntax Example"
 date: 2023-03-20T13:06:38+08:00
 description: "display the markdown syntax in iTheme"
 author: "Floyd Li"
-tags: ["markdown"]
+tags: ["Markdown", "Introduce","Demo"]
 theme: "dark"
 featured: true
-cover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg"
+cover: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
 
 # Headings
