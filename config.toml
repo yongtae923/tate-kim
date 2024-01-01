@@ -8,8 +8,13 @@ copyright = 'Tate Kim'
 theme = 'hugo-theme-itheme'
 paginate = 5
 [params]
-  defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+  defaultCover = 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   email = 'yongtae@kaist.ac.kr'
+  [params.algolia] # Algolia search configuration
+    enabled = true # enable Algolia search
+    appId = 'YCXSYQ2QQN' # appid for Algolia search
+    appKey = 'f21c496f9dee1bce2a76b7415eefc319' # appkey for Algolia search
+    searchIndex = 'tate_kim' # index for Algolia search
   [[params.socialMedia]]
     name = 'Github'
     url = 'https://github.com/yongtae923/'
