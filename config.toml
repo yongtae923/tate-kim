@@ -3,16 +3,22 @@ languageCode = 'en'
 defaultContentLanguage = "en"
 hasCJKLanguage = true
 enableEmoji = true
-title = 'iTheme'
-copyright = 'Floyd Li'
+title = 'Tate Kim'
+copyright = 'Tate Kim'
 theme = 'hugo-theme-itheme'
 paginate = 5
 [params]
   defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
-  email = 'floyd.li@outlook.com'
+  email = 'yongtae@kaist.ac.kr'
   [[params.socialMedia]]
     name = 'Github'
-    url = 'https://github.com/floyd-li'
+    url = 'https://github.com/yongtae923/'
+  [[params.socialMedia]]
+    name = 'Twitter (X)'
+    url = 'https://twitter.com/yongtae923/'
   [[params.blogroll]]
-    name = '驭风笔记'
-    url = 'https://yufengbiji.com/'
+    name = 'Velog blog'
+    url = 'https://velog.io/@yongtae923/'
+  [[params.blogroll]]
+    name = 'Naver blog'
+    url = 'https://blog.naver.com/yongtae923/'
