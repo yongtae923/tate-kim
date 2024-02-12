@@ -7,7 +7,7 @@ theme: 'light'
 
 Hi! I am Tate :)
 
-I am studying brain engineering and computer science at [KAIST](https://www.kaist.ac.kr/en/html/kaist/01.html). I’ve mainly worked as a software developer at several companies. Since 2023, I’m working on research to develop the digital therapeutics with proven principles. If you are interested, I hope that you would check my [CV](https://drive.google.com/file/d/1QaT4_ht89rS3QGQrB23PKO5eobjQ6CSf/view?usp=sharing).
+I am studying brain engineering and computer science at [KAIST](https://www.kaist.ac.kr/en/html/kaist/01.html). I’ve mainly worked as a software developer at several companies. Since 2023, I’m working on research to develop the digital therapeutics with proven principles. If you are interested, I hope that you would check my [CV](https://tate.kim/resume.pdf).
 
   
 
